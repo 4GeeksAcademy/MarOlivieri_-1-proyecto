@@ -1,0 +1,52 @@
+
+body {
+	/*/border: 20px aqua dashed;/*/
+	background: grey;
+	margin: 80px;
+}
+.post {
+	/*/border: 10px orchid dotted;/*/
+	width: 500px;
+	height: 40px;
+	background-color:white;
+	/*/justify-items: space-between;/*/
+	}
+.post-header {
+	/*/border: 5px orange dotted;/*/
+	/*/display: flex;/*/
+	display: inline-block;
+}
+.title{
+	/*/border: 5px red solid;/*/
+	display: inline-block;
+}	
+h3,h4{
+	margin:0;
+	display: flex;
+	/*/display: inline-block;/*/
+}
+.right-header {
+  /*/ border: 2px green dotted;/*/
+   float:right;
+}
+.post-body {
+	/*/border: 5px red dotted;/*/
+	width: 500px;
+	height: 180px;
+   	background-color:white;
+	padding:0px;	
+}
+.post-img {
+	/*/border: 5px blue solid;/*/
+	display: block;
+	padding-bottom: 0px;
+}
+.post-icons{
+	/*/border: 5px blue solid;/*/
+	font-size:20px;
+	display: inline;	
+}
+.post-icons>i:last-child{
+	float:right;
+	/*/border: 5px rgb(255, 0, 183) dashed;/*/
+}
