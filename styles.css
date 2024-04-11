@@ -6,47 +6,69 @@ body {
 }
 .post {
 	/*/border: 10px orchid dotted;/*/
-	width: 500px;
-	height: 40px;
-	background-color:white;
-	/*/justify-items: space-between;/*/
+		width: 500px;
+		height: 500px;
+		background-color: white;
+		margin-top: 10px;
+	    margin-left: 10px;
+	    margin-right: 10px;	
 	}
-.post-header {
-	/*/border: 5px orange dotted;/*/
-	/*/display: flex;/*/
-	display: inline-block;
-}
-.title{
+	/*/justify-items: space-between;/*/
+	
+
+.text{
 	/*/border: 5px red solid;/*/
 	display: inline-block;
+	margin-top: 10px;
 }	
 h3,h4{
 	margin:0;
 	display: flex;
+	
+
 	/*/display: inline-block;/*/
-}
-.right-header {
-  /*/ border: 2px green dotted;/*/
-   float:right;
 }
 .post-body {
 	/*/border: 5px red dotted;/*/
 	width: 500px;
 	height: 180px;
    	background-color:white;
-	padding:0px;	
+		
 }
 .post-img {
 	/*/border: 5px blue solid;/*/
 	display: block;
 	padding-bottom: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 .post-icons{
 	/*/border: 5px blue solid;/*/
 	font-size:20px;
-	display: inline;	
+	display: inline;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;	
 }
-.post-icons>i:last-child{
+.post-icons >i:last-child{
 	float:right;
 	/*/border: 5px rgb(255, 0, 183) dashed;/*/
+}
+p {
+    margin-left: 10px;
+}
+.fa-regular{
+	margin-right: 10px;
+}
+.right-header{
+	margin-left: 10px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.fa-brands{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	size: 50px;
 }
